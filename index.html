@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ <html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <meta name=”viewport” content=”width=device-width,initial-scale=1″>
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="main.css">
+ <title>電卓</title>
+ </head>
+ 
+ <body>
+ <div class ="container">
+  <div class ="result"><span>0</span></div>
+  <div class ="buttons">
+    <button class ="item item1" onclick ="c_click()">AC</button>
+    <button class ="item item1" onclick ="negative_click()">+/-</button>
+    <button class ="item percent" onclick ="percent_click()">%</button>
+    <button class ="item sign" onclick ="sign_click(innerHTML)">÷</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">7</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">8</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">9</button>
+    <button class ="item sign" onclick ="sign_click(innerHTML)">×</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">4</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">5</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">6</button>
+    <button class ="item sign" onclick ="sign_click(innerHTML)">-</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">1</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">2</button>
+    <button class ="item numbers" onclick ="num_click(innerHTML)">3</button>
+    <button class ="item sign" onclick ="sign_click(innerHTML)">+</button>
+    <button class ="item numbers zero" onclick ="num_click(innerHTML)">0</button>
+    <button class ="item comma" onclick ="num_click(innerHTML)">.</button>
+    <button class ="item equals" onclick ="equals_click()">=</button>
+  </div>
+ </div>     
+ <script src="main.js"></script>
+ </body>
+ </html>
